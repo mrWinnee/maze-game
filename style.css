@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+canvas {
+    display: block;
+}
+
+.globalContainer {
+    display: flex;
+    align-items: flex-start
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: calc(100vw - 400px);
+    max-width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.container button {
+    user-select: none;
+}
+
+#exit {
+    display: none;
+}
+
+#wall {
+    display: none;
+}
+
+#start {
+    display: none;
+}
